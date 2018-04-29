@@ -1,3 +1,16 @@
+# Team 47's Notes
+### Fork used for weight training
+Commands
+* ./darknet detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23
+* ./darknet detector demo cfg/obj.data cfg/yolo-obj.cfg [path/to/weight]
+
+Links
+https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
+https://timebutt.github.io/static/understanding-yolov2-training-output/
+https://github.com/AlexeyAB/darknet#when-should-i-stop-training
+
+
+
 # Yolo-v3 and Yolo-v2 for Windows and Linux
 ### (neural network for object detection)
 
