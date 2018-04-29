@@ -5,9 +5,9 @@ Commands
 * ./darknet detector demo cfg/obj.data cfg/yolo-obj.cfg [path/to/weight]
 
 Links
-https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
-https://timebutt.github.io/static/understanding-yolov2-training-output/
-https://github.com/AlexeyAB/darknet#when-should-i-stop-training
+* https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
+* https://timebutt.github.io/static/understanding-yolov2-training-output/
+* https://github.com/AlexeyAB/darknet#when-should-i-stop-training
 
 
 
