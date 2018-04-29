@@ -11,7 +11,7 @@ import os
 from os import walk, getcwd
 from PIL import Image
 
-classes = ["stopsign"]
+classes = ["black_buoy", "green_buoy", "red_buoy", "white_buoy", "yellow_buoy"]
 
 def convert(size, box):
     dw = 1./size[0]
@@ -30,10 +30,10 @@ def convert(size, box):
 """-------------------------------------------------------------------""" 
 
 """ Configure Paths"""   
-mypath = "labels/stopsign_original/"
-outpath = "labels/stopsign/"
+mypath = "labels/black_buoy_original/"
+outpath = "labels/black_buoy/"
 
-cls = "stopsign"
+cls = "black_buoy"
 if cls not in classes:
     exit(0)
 cls_id = classes.index(cls)
